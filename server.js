@@ -5,7 +5,7 @@ const port = 3000;
 app.get('/weather/today', (req, res) => {
     const weatherData = {
         status: 'Mostly Cloudy',
-        temperature: 100, // in Celsius
+        temperature: 300, // in Celsius
         probabilityOfRain: 0.9, // 90%
         windSpeed: 200, // in km/h
         highestTemperature: 30, // in Celsius
